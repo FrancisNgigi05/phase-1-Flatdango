@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noel's Cinema: Home</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <h1>Noel's Cinema</h1>
+    </header>
+    <nav>
+        <ul>
+            <div>
+                <li><a href="./index.html">Home</a></li>
+            </div>
+            <div>
+                <li><a href="./about.html">About</a></li>
+            </div>
+        </ul>
+    </nav>
+    <main>
+        <div class="head">
+            <h2>Now Showing</h2>
+            <div class="tenor-gif-embed" data-postid="17684735321368389858" data-share-method="host" data-aspect-ratio="0.718876" data-width="100%"><a href="https://tenor.com/view/mad-max-fury-road-tom-hardy-charlize-theron-gif-17684735321368389858">Mad Max Fury Road GIF</a>from <a href="https://tenor.com/search/mad+max-gifs">Mad Max GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
+            <ul id="movie-list">Check out our latest films below:</ul>
+        </div>
+        <div class="detailsMain">
+            <div class="detailsM">
+                <div class="detailsHead">
+                    <h3 id="title">Title: `${title}`</h3>
+                    <img id="poster" `${poster}` alt="`${title}`">
+                </div>
+                <div class="detailsBody">
+                    <p class="hd">Runtime (minutes):</p>
+                    <p id="runtime">Runtime: `${runtime}`</p>
+                    <p class="hd">Capacity:</p>
+                    <p id="capacity">Capacity: `${capacity}`</p>
+                    <p class="hd">Showtime:</p>
+                    <p id="showtime">Showtime: `${showtime}`</p>
+                    <p class="hd">Available Tickets:</p>
+                    <p id="available-tickets">Available Tickets: `${available-tickets}`</p>
+                    <p class="hd">Description:</p>
+                    <p id="description">Description: `${description}`</p>
+                </div>
+            </div>
+
+            <div class="buttons">
+                <button id="buy">Buy Tickets</button>
+                <button id="reset">Reset Tickets</button>
+                <button id="delete">Delete Movie</button>
+            </div>
+        </div>
+    </main>
+    <script src="./index.js"></script>
+</body>
+</html>

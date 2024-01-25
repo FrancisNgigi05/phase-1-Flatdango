@@ -1,0 +1,226 @@
+
+/* formatting for the body */
+html {
+    height: 100%;
+    overflow: hidden;;
+  }
+  
+  /* formatting for the header */
+  body header h1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    box-shadow: 0 0 80px rgba(0, 0, 0, 0.1);
+    font-family: fantasy;
+    font-size: 50px;
+  }
+  
+  /* formatting for the navigation bar */
+  nav ul {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    flex: 1;
+    background-color: #d6e1d7;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  nav ul li {
+    margin: 15px;
+    font-size: larger;
+    font-weight: 500;
+    padding: 0;
+    color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  nav ul li:hover {
+    color: #fff;
+    background-color: #b3b7ec;
+  }
+  
+  /* formatting for the main details show page */
+  main {
+    display: grid;
+    grid-template-columns: auto 1fr;
+  }
+  
+  main .detailsMain {
+    padding-left: 200px;
+  }
+  
+  body main .head {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 500px;
+    padding-right: 100px;
+    overflow: scroll;
+    position: relative;
+    height: 20%;
+    background-color: #d6e1d7;
+  }
+  
+  body main .head h2 {
+    font-size: 40px;
+    margin: 0;
+    font-family:'Courier New', Courier, monospace;
+    font-stretch:extra-expanded;
+    color: rgb(255, 38, 0);
+  }
+  
+  body main .head ul {
+    font-size: 20px;
+    font-weight: 700;
+    padding: 0;
+    font-family:'Courier New', Courier, monospace;
+    color: rgb(255, 38, 0);
+  }
+  
+  body main .head ul li {
+    font-size: 15px;
+    padding:9px;
+    text-align: center;
+    margin: 5px;
+    font-family:'Courier New', Courier, monospace;
+    border: 1px solid #000;
+  }
+  
+  a {
+    color: #0060B6;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color:#00A0C6; 
+    text-decoration:none; 
+    cursor:pointer; 
+  }
+  
+  body main .detailsMain .detailsM {
+    display: flex;
+    overflow: scroll;
+    height: 35%;
+  }
+  
+  body main .detailsM .detailsBody {
+    padding-top: 130px;
+    padding-left: 50px;
+    overflow: scroll;
+  }
+  
+  body main .detailsM .detailsHead img {
+    width: 300px;
+    border-radius: 40px;
+  }
+  
+  .active {
+    background-color: rgb(197, 197, 249);
+  }
+  
+  body main .detailsM .hd {
+    font-size: 18px;
+    font-style: bold;
+    font-weight: 900;
+    font-family: monospace;
+  }
+  
+  h3 {
+    font-size: 28px;
+    font-style: bold;
+    font-weight: bolder;
+    font-family: monospace;
+  }
+  
+  /* formatting for contact us page */
+  body main .contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  /* formatting for buttons */
+  body main .detailsMain button {
+    background-color: rgb(190, 19, 36);
+    border-radius: 100px;
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-family: monospace;
+  }
+  
+  /* formatting the add movie page*/
+  body .new form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  body .new form input {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: monospace;
+    width: 500px;
+  }
+  
+  body .new form label {
+    margin: 10px;
+    font-size: 20px;
+    font-family: monospace;
+  }
+  
+  body .new form button {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: monospace;
+    width: 200px;
+    background-color: rgb(19, 167, 190);
+  }
+  
+  /* formatting the login page*/
+  body .login form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  body .login form input {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: monospace;
+    width: 500px;
+  }
+  
+  body .login form label {
+    margin: 10px;
+    font-size: 20px;
+    font-family: monospace;
+  }
+  
+  body .login form button {
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: monospace;
+    width: 200px;
+    background-color: rgb(19, 167, 190);
+  }
+  
